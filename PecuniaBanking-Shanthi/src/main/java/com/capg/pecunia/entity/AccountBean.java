@@ -11,6 +11,10 @@ public class AccountBean {
 	String cutomerDob;
 	String customerGender;
 	String customerContact;
+	AccountBean()
+	{
+		super();
+	}
 	public String getAccountNumber() {
 		return accountNumber;
 	}
