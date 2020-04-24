@@ -9,7 +9,6 @@ public class AccountBean {
 	String customerAadhar;
 	String cutomerPan;
 	String cutomerDob;
-	String customerGender;
 	String customerContact;
 	AccountBean()
 	{
@@ -57,12 +56,8 @@ public class AccountBean {
 	public void setCutomerDob(String cutomerDob) {
 		this.cutomerDob = cutomerDob;
 	}
-	public String getCustomerGender() {
-		return customerGender;
-	}
-	public void setCustomerGender(String customerGender) {
-		this.customerGender = customerGender;
-	}
+	
+	
 	public String getCustomerContact() {
 		return customerContact;
 	}
